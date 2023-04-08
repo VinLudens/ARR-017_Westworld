@@ -3,4 +3,4 @@
 
 \addEdition tweaks
 
-\editionMod tweaks 3 0/12 music.Voice.A ^\ppp
+\editionMod tweaks 3 0/8 music.Voice.A ^\ppp
