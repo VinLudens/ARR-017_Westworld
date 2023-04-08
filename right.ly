@@ -27,4 +27,38 @@ right = \relative c'' {
   r4 <d a>8 \repeat unfold 3 { <e g,> q <d a> }
   \normalsize
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+  \clef "treble" <e='' e'>4\( <f f'>8 <e e'>4 <f f'>8 <e e'> <d d'> <c c'> ~ <c c'>4. |
+  <d d'>2.->\) s |
+  \clef "treble" <d='' d'>4\( <e e'>8 <d d'>4 <e e'>8 <d d'> <c c'> <g g'> ~ <g g'>4. |
+  <a a'>2.->\) s |
+
+
+
+
+
+
+
+
+
+  \clef "treble" <f'='' f'>4\( <g g'>8 <f f'>4 <g g'>8 <f f'> <e e'> <d d'> ~ <d d'>4 <f f'>8 |
+  <e e'>2.->\) s |
+  s1. |
+
+  \repeat unfold 4 { a,,=16 c e gis a8 } |
+  \repeat unfold 4 { c,='16 e gis a8. } |
+  \repeat unfold 4 { a,=16 c e gis a8 } |
+
 }
