@@ -53,6 +53,20 @@ date = #(strftime "%B %d %Y" (localtime (current-time)))
       \editionID ##f music
     }
   }
+}
+
+\score {
+  \new PianoStaff \with {
+    instrumentName = "Piano"
+  } << \accidentalStyle piano
+    \new Staff = "right" \with {
+      midiInstrument = "acoustic grand"
+    } \unfoldRepeats \right
+    \new Dynamics = "Dynamics" \unfoldRepeats \dynamics
+    \new Staff = "left" \with {
+      midiInstrument = "acoustic grand"
+    } { \clef bass \unfoldRepeats \left }
+  >>
   \midi {
     %\tempo 4=80
     \set Staff.midiMaximumVolume = #5
