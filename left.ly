@@ -57,8 +57,32 @@ left = \relative c' {
   \repeat unfold 4 { \change Staff = "left" c,=16 g' c \change Staff = "right" d g8 } | \stemNeutral
   \change Staff = "left" bes,,=,16 f' bes \change Staff = "right" c d8   \change Staff = "left" a,=,16 e' a \change Staff = "right" bes c8   \change Staff = "left" gis,=,16 e' gis \change Staff = "right" bes c8   \change Staff = "left" g,=,16 d' g \change Staff = "right" gis bes8 | \change Staff = "left"
 
-  <a,=, a,>4. 4. 4. 4 ~ 16 <g g,>( |
+  \oneVoice <a,=, a,>4. 4. 4. 4 ~ 16 <g g,>( |
   <f f,>4.) 4. 4. 4 <g g,>8( |
   <a=, a,>4.) 4. 4. 4. |
+
+
+  <d,=, d,>8-> a''=16 f d a \repeat unfold 3 { d,_> a' d f d a } |
+  \repeat unfold 4 { g=,16 d' g b g d } |
+  \repeat unfold 4 { gis,=,16 e' gis b gis e } |
+  \stemDown bes=,16 g'= bes \change Staff = "right" d bes g \stemNeutral \change Staff = "left" bes,=, \change Staff = "right" g'= bes d bes g \change Staff = "left" a,=, \change Staff = "right" g'= b d b g \change Staff = "left" a,=,4. |
+
+
+  \repeat unfold 2 { \change Staff = "left" f=,16 c' f a \change Staff = "right" f'8 } \change Staff = "left" f,,=,8 \change Staff = "right" gis''=' a \change Staff = "left" f,,=,16 c' f a c8 |
+  \repeat unfold 3 { d,,=,16 a' d f c'8 } d,,=,16 a' d e f g |
+
+
+
+
+
+
+
+  bes,=,16 f' bes \change Staff = "right" c d8   \change Staff = "left" a,=,16 e' a \change Staff = "right" bes c8   \change Staff = "left" gis,=,16 e' gis \change Staff = "right" bes c8   \change Staff = "left" g,=,16 d' g \change Staff = "right" gis bes8 | \change Staff = "left"
+  e,,=,16 b' e \change Staff = "right" f as bes \change Staff = "left" ees,,=,16 b' es \change Staff = "right" f as bes \change Staff = "left" d,,=,16 a' d \change Staff = "right" e f g \change Staff = "left" cis,,=,16 a' cis \change Staff = "right" e f g | \change Staff = "left"
+
+  \bar"||" \time 4/4
+  \key b \minor
+
+  c,,=,8 c'=4 4 4 8 |
 
 }

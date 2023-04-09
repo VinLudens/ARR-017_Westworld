@@ -61,4 +61,28 @@ right = \relative c'' {
   \repeat unfold 4 { c,='16 e gis a8. } |
   \repeat unfold 4 { a,=16 c e gis a8 } |
 
+
+  <e'='' c a e>4\( <f c a f>8 <e c a e>4 <f c a f>8 <e c a e>8 <d d,> <c c,> ~ q4.\) |
+  <d='' b g d>4\( <e b g e>8 <d='' b g d>4 <e b g e>8 <d='' b g d> <c c,> <g \parenthesize g,> ~ <g g,>4.\) |
+  <d''=''' b gis d>4\( <e b gis e>8 <d b gis d>4 <e b gis e>8 <d b gis d> <e e,> <g g,> ~ q4 <f f,>8 |
+  <e bes g e>4.\) r2. cis,,='4. |
+
+  << {
+      \voiceOne e='4 f8 e4 f8 e gis a r4. |
+      \voiceTwo <c='' c'>4.-> <b b'>4 <c c'>8 \oneVoice <b b'> <a a'> <e e'> ~ q4. |
+    }
+    \new Voice \with { \editionID small } { \voiceThree \tiny
+      r8 e'=''16-2 gis-3 a8-5 \repeat unfold 2 { r8 e=''16 gis a8 } \parenthesize a,='16 c e gis a8 |
+      \repeat unfold 2 { r16 e='' gis a8. } r2. |
+    }
+  >> \oneVoice
+
+  \voiceOne r4 r16 f,='16~ 4~ 16 e16~ 4~ 16 g16~ 4~ 16 ees16 ~ |
+  4. d cis c | \oneVoice
+
+  \bar"||" \time 4/4
+  \key b \minor
+
+  b1 |
+
 }
