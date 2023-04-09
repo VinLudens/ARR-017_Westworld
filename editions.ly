@@ -59,3 +59,5 @@
 \editionMod tweaks 27 0/8 music.Voice.B \stemDown
 
 \editionMod tweaks 29 0/8 music.Voice.B \stemNeutral
+
+\editionMod tweaks 55 0/8 music.Voice.B \once\override TrillPitchAccidental.avoid-slur = #'around

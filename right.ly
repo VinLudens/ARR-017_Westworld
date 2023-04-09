@@ -84,5 +84,53 @@ right = \relative c'' {
   \key b \minor
 
   b1 |
+  r1 |
+
+  r4 b'='8\( fis d'4. b8 ~ |
+  2\) r4 b='8\( ais |
+  fis'=''4 d8 e b4 d8 e |
+  ais,='4 b d4. cis8 ~ |
+
+  4\) b='8\( fis d'4. b8 ~ |
+  2\) r4 b='8\( ais |
+  fis'=''4 d8 e b4 d8 e |
+  <ais,=' g>4 <b gis> <d ais>4. <cis a>8 ~ |
+
+  q4\) <b=' fis>8^\( <fis dis> <cis'='' fis,>4. <b dis,>8 ~ |
+  q2\) r4 <b=' fis>8\( <ais dis,> |
+  <fis'='' ais,>4 <dis fis,>8 e <b fis>4 <dis ais>8 e |
+  <ais,=' e>4 <b gis> <d ais>4. <cis a>8 ~ |
+
+  q4\) <b=' fis d>8 <ais fis d> <b fis d>4 <d fis, d>8 <cis fis, d> |
+  <d fis, d>4 <b=' fis d>8 <ais fis d> <b fis d>4 <d fis, d>8 <cis fis, d> |
+  <e='' b g>4 <d b g>8 <cis b g> <d b g>4 <g='' b, g>8 <fis b, g> |
+  <g='' b, g>4 <e b g>8 <dis b g> <e b g>4 <g='' b, g>8 <fis b, g> |
+
+  <a d, b>4 <g d b>8 <fis d b> <g d b>4 <b='' d, b>8 <ais d, b> |
+  <ais e cis>4 <a e cis>8 <gis e cis> <a e cis>4 <c=''' e, cis!>8 <b e, cis> |
+  <b='' fis dis>4 <ais fis dis>8 <a fis dis> <cis=''' g e>4 <c g e>8 <b g e> |
+
+  \time 9/8
+
+  \repeat unfold 2 { <dis=''' gis, f>8 q <cis gis f> } <cis g e> q <c g e> |
+  \repeat unfold 2 { < c fis, dis>8 q <b fis dis> } <ais f d> q <a f d> |
+
+  \time 6/8
+
+  \repeat unfold 4 { <a dis, c> q <gis dis c> } |
+
+  \repeat unfold 6 { <a c,> q <gis c,> } |
+
+
+
+
+
+  \bar "||"
+  \time 12/8
+  \clef "treble"
+  \key a \minor
+
+  \tiny
+  \repeat unfold 4 { <a='' c,>8 q <gis bes,> } |
 
 }

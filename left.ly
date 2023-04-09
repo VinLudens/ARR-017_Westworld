@@ -84,5 +84,58 @@ left = \relative c' {
   \key b \minor
 
   c,,=,8 c'=4 4 4 8 |
+  b=,8( c=4) 4 4 8 |
+
+  b=,8( c=4) <a'= b>4 4 8 |
+  c,=8 <a'= b>4 4 4 8 |
+  c,=8 <g'= ais>4 4 4 8 |
+  e,=,8 <b' e>4 4 4 8 |
+
+  \repeat unfold 3 {
+    b=,8 <fis' b>4 4 4 8 |
+  }
+  e,=,8 <b' e>4 4 4 8 |
+
+  \repeat unfold 3 {
+    b=,8 <fis' b>4 4 4 8 |
+  }
+  e,=,8 <b' e>4 8 fis=,8 <cis' fis>4 8 |
+
+  b=,8 <fis' b>4 4 4 8 ~ |
+  8 4 4 4 8 |
+  e,=,8 <b' e>4 4 4 8 ~ |
+  8 4 4 4 8 |
+
+  fis=,8 <d' fis>4 4 4 8 |
+  g,=,8 <d' g>4 4 4 8 |
+  a=,8 <e' a>4 8 ais,=,8 <e' ais>4 8 |
+
+  \time 9/8
+
+  \tuplet 2/3 4. { b=,8 fis' b fis a, e' } |
+  \tuplet 2/3 4. { gis,=,8 dis' fis dis g, d' } |
+
+  \time 6/8
+
+  \tuplet 2/3 4. { fis,=,8-> cis' a-> e' } |
+  \tuplet 2/3 4. { c8-> g' dis-> ais' } |
+  \tuplet 2/3 4. { f=8->\( c' \clef "treble" e f } |
+  \pitchedTrill a2.\)^~-\startTrillSpan gis |
+  a2. | 
+
+
+
+  \bar "||"
+  \time 12/8
+  \clef "bass"
+  \key a \minor
+
+  << { \voiceOne
+      a,=4.\stopTrillSpan
+    }
+    \new Voice { \voiceTwo
+      r
+    }
+  >> \oneVoice
 
 }
