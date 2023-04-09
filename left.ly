@@ -23,8 +23,6 @@ left = \relative c' {
 
       <a= e>4.\( <c g> <d a> <e b> |
       q2.\) r2. |
-      bes=4.\( f'=' e d |
-      e2.\) r |
     }
     \new Voice { \voiceTwo
       <e,= a,>2. <e a> |
@@ -34,7 +32,17 @@ left = \relative c' {
 
       a,=,1. |
       <g'= d= g,~>2. q2. |
-      <f= bes,>2. <f bes>2. |
+    }
+  >> \oneVoice
+
+  \repeat segno 2 {
+
+  << { \voiceOne
+      bes=4.\( f'=' e d |
+      e2.\) r |
+    }
+    \new Voice { \voiceTwo
+      <f,= bes,>2. <f bes>2. |
       <a= e= a,~>2. q2. |
     }
   >> \oneVoice
@@ -76,6 +84,8 @@ left = \relative c' {
 
 
 
+  \alternative {
+    \volta 1 {
 
   bes,=,16 f' bes \change Staff = "right" c d8   \change Staff = "left" a,=,16 e' a \change Staff = "right" bes c8   \change Staff = "left" gis,=,16 e' gis \change Staff = "right" bes c8   \change Staff = "left" g,=,16 d' g \change Staff = "right" gis bes8 | \change Staff = "left"
   e,,=,16 b' e \change Staff = "right" f as bes \change Staff = "left" ees,,=,16 b' es \change Staff = "right" f as bes \change Staff = "left" d,,=,16 a' d \change Staff = "right" e f g \change Staff = "left" cis,,=,16 a' cis \change Staff = "right" e f g | \change Staff = "left"
@@ -149,5 +159,15 @@ left = \relative c' {
       <g'= d= g,~>2. q2. |
     }
   >> \oneVoice
+
+    }
+    \volta 2 \volta #'() {
+      \section
+      \sectionLabel "Coda"
+    }
+  }
+  }
+
+  r
 
 }

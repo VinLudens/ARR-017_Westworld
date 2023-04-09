@@ -23,16 +23,23 @@ right = \relative c'' {
 
   \repeat unfold 4 { <a='' c,>8 q <gis b,> } |
   r4 <fis a,>8 \repeat unfold 3 { <g b,> q <fis a,> }
+
+
+
+
+
+
+
+
+
+
+
+
+  \repeat segno 2 {
+
   \repeat unfold 4 { <f a,>8 q <e g,> } |
   r4 <d a>8 \repeat unfold 3 { <e g,> q <d a> }
   \normalsize
-
-
-
-
-
-
-
 
 
 
@@ -76,6 +83,9 @@ right = \relative c'' {
       \repeat unfold 2 { r16 e='' gis a8. } r2. |
     }
   >> \oneVoice
+
+  \alternative {
+    \volta 1 {
 
   \voiceOne r4 r16 f,='16~ 4~ 16 e16~ 4~ 16 g16~ 4~ 16 ees16 ~ |
   4. d cis c | \oneVoice
@@ -138,5 +148,26 @@ right = \relative c'' {
 
   \repeat unfold 4 { <a='' c,>8 q <gis bes,> } |
   r4 <fis a,>8 \repeat unfold 3 { <g b,> q <fis a,> }
+
+
+
+
+
+
+
+
+
+
+
+
+    }
+    \volta 2 \volta #'() {
+      \section
+      \sectionLabel "Coda"
+    }
+  }
+  }
+
+  r
 
 }
