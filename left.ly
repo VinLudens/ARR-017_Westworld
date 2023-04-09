@@ -168,6 +168,22 @@ left = \relative c' {
   }
   }
 
-  r
+  \stemDown bes,=,16 f' bes \change Staff = "right" c d8   \change Staff = "left" a,=,16 e' a \change Staff = "right" bes c8   \change Staff = "left" gis,=,16 e' gis \change Staff = "right" c dis8   \change Staff = "left" g,,=,16 d' g \change Staff = "right" d'=' fis b | \change Staff = "left" \stemNeutral
+  f,,=,2.->
+  ees |
+  d
+  des |
+
+  \time 6/8
+  c |
+  \time 12/8
+
+  b b |
+
+  b=,,8 ees''=' des b bes as g e cis bes g e |
+  <f=, bes>2. q2. |
+  <bes,=,, bes,>1. |
+
+  \bar "|."
 
 }

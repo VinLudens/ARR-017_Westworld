@@ -147,7 +147,7 @@ right = \relative c'' {
   r4 <e gis,>8 \repeat unfold 2 { <f a,>8 q <e gis,> } <f a,> q <g b,> | |
 
   \repeat unfold 4 { <a='' c,>8 q <gis bes,> } |
-  r4 <fis a,>8 \repeat unfold 3 { <g b,> q <fis a,> }
+  r4 <fis a,>8 \repeat unfold 3 { <g b,> q <fis a,> } |
 
 
 
@@ -168,6 +168,22 @@ right = \relative c'' {
   }
   }
 
-  r
+  \normalsize \voiceOne r4 r16 g,='16~ 4~ 16 a~ 4~ 16 ais~ 4. | \oneVoice
+  c=''16^> b fis d \change Staff = "left" c b f b c \change Staff = "right" d fis b
+  c b fis d \change Staff = "left" c b ees,= fis bes c \change Staff = "right" es fis |
+  bes='16 a fis es d \change Staff = "left" c bes c \change Staff = "right" d es fis a
+  bes a fis es c \change Staff = "left" bes a bes \change Staff = "right"  c es fis a |
+
+  \time 6/8
+  c=''16 bes a fis \change Staff = "left" es c bes c es \change Staff = "right" fis a c |
+  \time 12/8
+
+  \repeat unfold 2 { bes='16 as es \change Staff = "left" des c bes as bes c des \change Staff = "right" es c'='' }
+
+  bes='16 as des bes e des as'='' e bes' as des bes e des \ottava 2 aes'=''' e bes' as des bes e des as'='''' e |
+  <bes'='''' f d>2.\arpeggio q |
+  q1.\fermata |
+
+  \bar "|."
 
 }
