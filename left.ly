@@ -121,7 +121,7 @@ left = \relative c' {
   \tuplet 2/3 4. { c8-> g' dis-> ais' } |
   \tuplet 2/3 4. { f=8->\( c' \clef "treble" e f } |
   \pitchedTrill a2.\)^~-\startTrillSpan gis |
-  a2. | 
+  a2. |
 
 
 
@@ -131,10 +131,22 @@ left = \relative c' {
   \key a \minor
 
   << { \voiceOne
-      a,=4.\stopTrillSpan
+      a,=4.\(\stopTrillSpan bes c d |
+      a=2.\) r |
+      a=4.\( d=' c bes |
+      a2.\) r |
+
+      <a e>4.\( <bes f> <c g> <d a> |
+      <e=' b>2.\) r2. |
     }
     \new Voice { \voiceTwo
-      r
+      <e,= a,>2. <d g> |
+      <f cis f,~>2. q |
+      <e= a,>2. <d g> |
+      <f c f,~>2. q |
+
+      a,=,1. |
+      <g'= d= g,~>2. q2. |
     }
   >> \oneVoice
 

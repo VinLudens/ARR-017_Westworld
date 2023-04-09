@@ -132,5 +132,11 @@ right = \relative c'' {
 
   \tiny
   \repeat unfold 4 { <a='' c,>8 q <gis bes,> } |
+  r4 <e='' gis,>8 \repeat unfold 2 { <f cis>8 q <e gis,> } <f cis> q <g b,> |
+  \repeat unfold 4 { <a='' c,>8 q <gis bes,> } |
+  r4 <e gis,>8 \repeat unfold 2 { <f a,>8 q <e gis,> } <f a,> q <g b,> | |
+
+  \repeat unfold 4 { <a='' c,>8 q <gis bes,> } |
+  r4 <fis a,>8 \repeat unfold 3 { <g b,> q <fis a,> }
 
 }

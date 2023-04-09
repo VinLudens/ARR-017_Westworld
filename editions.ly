@@ -1,3 +1,5 @@
+\include "global.ly"
+
 \consistToContexts #edition-engraver Score.PianoStaff.Staff.Voice
 \consistToContexts #edition-engraver Score.PianoStaff.Dynamics
 
@@ -61,3 +63,5 @@
 \editionMod tweaks 29 0/8 music.Voice.B \stemNeutral
 
 \editionMod tweaks 55 0/8 music.Voice.B \once\override TrillPitchAccidental.avoid-slur = #'around
+
+\editionMod tweaks 57 0/8 music.Voice.A ^\paren\pp
