@@ -17,6 +17,9 @@ paren =
        }
     #}))
 
+crescPoco = \tweak DynamicText.self-alignment-X #LEFT 
+        #(make-dynamic-script (markup #:normal-text #:italic "cresc. poco a poco"))
+
 %{
 Some other usefull commands
 
