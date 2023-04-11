@@ -76,7 +76,7 @@ right = \relative c'' {
 
   << {
       \voiceOne e='4 f8 e4 f8 e gis a r4. |
-      \voiceTwo <c='' c'>4.-> <b b'>4 <c c'>8 \oneVoice <b b'> <a a'> <e e'> ~ q4. |
+      \voiceTwo <c='' c'>4.->\( <b b'>4 <c c'>8 \oneVoice <b b'> <a a'> <e e'> ~ q4.\) |
     }
     \new Voice { \voiceThree \tiny
       r8 e'=''16 gis a8 \repeat unfold 2 { r8 e=''16 gis a8 } \parenthesize a,='16 c e gis a8 |

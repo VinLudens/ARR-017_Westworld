@@ -129,7 +129,7 @@ left = \relative c' {
 
   \tuplet 2/3 4. { fis,=,8-> cis' a-> e' } |
   \tuplet 2/3 4. { c8-> g' dis-> ais' } |
-  \tuplet 2/3 4. { f=8->\( c' \clef "treble" e f } |
+  \tuplet 2/3 4. { f=8->_\( c' \clef "treble" e f } |
   \pitchedTrill a2.\)^~-\startTrillSpan gis |
   a2. <>\stopTrillSpan |
 
