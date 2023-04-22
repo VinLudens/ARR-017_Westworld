@@ -156,6 +156,15 @@
 \editionMod dynamics 67 0/8 music.Dynamics \mp
 
 \editionMod tweaks 68 0/8 music.Voice.A \stemNeutral
+\editionMod fingering 68 0/16 music.Voice.A -3
+\editionMod fingering 68 1/16 music.Voice.A -2
+\editionMod fingering 68 2/16 music.Voice.A -4
+\editionMod fingering 68 3/16 music.Voice.A -2
+\editionMod fingering 68 4/16 music.Voice.A -5
+\editionMod fingering 68 5/16 music.Voice.A -2
+\editionMod fingering 68 6/16 music.Voice.A -4
+\editionMod fingering 68 7/16 music.Voice.A -1
+\editionMod fingering 68 8/16 music.Voice.A -3
 
 \editionMod dynamics 69 0/8 music.Dynamics \pp
 \editionMod dynamics 69 0/8 music.Dynamics \>
