@@ -106,8 +106,8 @@
 \editionMod fingering 25 21/16 music.Voice.G -4
 \editionMod fingering 25 22/16 music.Voice.G -5
 
-\editionMod fingering 26 2/16 music.Voice.G -2
-\editionMod fingering 26 1/16 music.Voice.G -3
+\editionMod fingering 26 1/16 music.Voice.G -2
+\editionMod fingering 26 2/16 music.Voice.G -3
 \editionMod fingering 26 3/16 music.Voice.G -4
 \editionMod fingering 26 9/16 music.Voice.G -4
 
