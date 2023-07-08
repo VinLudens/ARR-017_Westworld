@@ -4,4 +4,4 @@
 
 # Recording
 
-- To be recorded
+- <https://youtu.be/89rD4WkVw_Q>
